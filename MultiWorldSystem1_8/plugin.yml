@@ -1,0 +1,209 @@
+name: MultiWorldSystem
+version: 2.8
+author: Alugilak
+main: de.emptyWorld.main.leerWelt
+
+commands:
+
+         mwsHelp:
+                    description: mv create <WUNSCHNAME> normal -g emptyWorld
+                    usage: /<command>
+         ewHelpEn:
+                    description: mv create <WUNSCHNAME> normal -g emptyWorld
+                    usage: /<command>
+              
+              
+         ewca:
+                    description: creates a World with name emptyWorld
+                    usage: /<command>
+
+         ewua:
+                    description: unload the World with name emptyWorld from Multivers
+                    usage: /<command> 
+
+         ewra:
+                    description: remove the World with name emptyWorld from Multivers
+                    usage: /<command>
+
+         ewda:
+                    description: delete the World with name emptyWorld from Multivers an the Folder from Server
+                    usage: /<command> 
+
+         block:
+                    description: set a Stone by side you
+                    usage: /<command> 
+
+         gm1:
+                    description: gamemode to creativ
+                    usage: /<command> 
+
+         gm0:
+                    description: set gamemode to survival
+                    usage: /<command> 
+
+         gm2:
+                    description: set gamemode to spectator
+                    usage: /<command> 
+
+         c:
+                    description: clean your inventory
+                    usage: /<command> 
+      
+         sonne:
+                    description: set weather clear
+                    usage: /<command> 
+
+         tag:
+                    description: set the time to 0
+                    usage: /<command>  
+         fCreate:
+                    description: create a flat World without Multiverse
+                    usage: /<command> <worldname>  
+                   
+
+         lbCreate:
+                    description: create a large Biome World without Multiverse
+                    usage: /<command> <worldname>  
+                   
+
+         nCreate:
+                    description: create a normal World without Multiverse
+                    usage: /<command>  <worldname>  
+                   
+      
+         iCreate:
+                    description: create a Island World without Multiverse
+                    usage: /<command> <worldname>  
+            
+
+         v1Create:
+                    description: create a Minecraft 1.1 World without Multiverse
+                    usage: /<command>   <worldname>  
+
+                                        
+         wlist:
+                    description: list World and player
+                    usage: /<command>          
+         gset:
+                    description: create pex group system
+                    usage: /<command>    
+         peng:
+                    description: teleport to player
+                    usage: /<command>         
+         ssp:
+                    usage: /<command>
+                    description: Set the spawn.
+         sp:
+                    usage: /<command>
+                    description: Go to the spawn.
+         sw:
+                    usage: /<command>
+                    description: Create a warp.
+         w:
+                    usage: /<command>
+                    description: Go to a warp.
+         dw:
+                    usage: /<command>                    
+                    description: Delete a warp.
+         mwsHelptp:
+                    usage: /<command>                    
+                    description: German Helpmenu.
+         mwsr:
+                    usage: /<command>                    
+                    description: Data reload.    
+         warpl:
+                    usage: /<command>                    
+                    description: List warp
+         fs:
+                    usage: /<command>                    
+                    description: fly speed   
+         walk:
+                    usage: /<command>                    
+                    description: walk speed 
+         skyCreate:
+                    usage: /<command>  <worldname>                  
+                    description: create clean World  
+         sh:
+                    usage: /<command>                    
+                    description: set home   
+         home:
+                    usage: /<command>  /<command> <player>                  
+                    description: teleport to own or other player home 
+         dh:
+                    usage: /<command>                    
+                    description: delete home 
+         sethub:
+                    usage: /<command>                    
+                    description: set hub   
+         hub:
+                    usage: /<command>                    
+                    description: teleport to hub  
+         discord:
+                    usage: /<command>                    
+                    description: schow the discordchanel
+         homepage:
+                    usage: /<command>                    
+                    description: schow the Homepage URL 
+         heal:
+                    usage: /<command>                    
+                    description: heal a player
+         mwsHelpEn:
+                    usage: /<command>                    
+                    description: English Helpmenu
+         to:
+                    usage: /<command> <player>                   
+                    description: tp to a player
+         me:
+                    usage: /<command> <player>                  
+                    description: tp player to you
+
+         f:
+                    usage: /<command>                  
+                    description: set fly on or off
+         gi:
+                    usage: /<command>                  
+                    description: give items                    
+
+                                         
+
+        
+permissions:
+     ewg.*:
+       description: Gives access to all ewg commands
+       children:
+        ewg.give.use: false
+        ewg.fly.set: false
+        ewg.use: false
+        ewg.fly.use: false
+        ewg.walk.use: false
+        ewg.gm0.use: false
+        ewg.gm1.use: false
+        ewg.gm2.use: false
+        ewg.heal.use: false
+        ewg.inv.clear: false
+        ewg.sun.use: false
+        ewg.day.use: false
+        ewg.group.set: false
+        ewg.kill.use: false
+        ewg.spawn.set: false
+        ewg.warp.set: false
+        ewg.home.set: false
+        ewg.hometo.use: false
+        ewg.hub.set: false
+        ewg.dw.use: false
+        ewg.dh.use: false
+        ewg.mwsr.use: false
+        ewg.flat.create: false
+        ewg.lb.create: false
+        ewg.normal.create: false
+        ewg.amplified.create: false
+        ewg.v1.create: false
+        ewg.sky.create: false
+        ewg.block.set: false
+        ewg.motd.set: false
+        ewg.motd.send: false
+        ewg.discord.use: false
+        ewg.homepage.use: false
+        ewg.tpto.use: false
+        ewg.tpme.use: false
+        ewg.gamer.use: false

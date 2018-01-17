@@ -1,0 +1,204 @@
+#-----------------------------------Automatik Generator Worlds------
+EwgFlat: flat
+#-------------------------------------
+mvEWGautoCreateName: sky
+mvEWGautoCreateType: normal
+#autocreate Worlds without Multiverse
+mvEWGautoCreateName: emptyWorld
+EwgSky: Sky
+EwgLargeBiome: largeBiome
+EwgNormal: normaleWelt
+EwgIsland: InselWelt
+EgwMine1_1: AlteMap
+EWGErrorName: Bitte gib einen Namen ein wie die Welt heißen soll!
+CreateWait: Bitte warten, die Welt wird erstellt! Dies kann je nach System länger dauern! Eine Mitteilung erscheint im Chat nach erfolgreicher Erstellung! 
+#-----------------------------------Helpmenue Map Generator------
+mvEwgCreateText1: eine leere Welt erstellen benutze diesen Befehl
+mvEwgCreatecmd1: /mv create
+mvEwgCreatecmd2: <Wunschname>
+mvEwgCreatecmd3: normal
+mvEwgCreatecmd4: -g emptyWorld
+mvEWGautoCreate1: automatisch eine Welt mit Namen
+mvEWGautoCreateMessage: emptyWorld erfolgreich erstellt!
+mvEWGautoCreate2: erstellen
+mvEWGautoCreateCmd: /ewca
+EwgAutoMvUnload: autotatisch erstellte Welt aus Multivers entladen
+EwgAutoMvUnloadCmd: /ewua
+EwgAutoMvRemove:  autotatisch erstellte Welt aus Multivers entfernen
+EwgAutoMvRemoveCmd: /ewra
+EwgAutoMvDelete: autotatisch erstellte Welt aus Multivers und Server löschen
+EwgAutoMvDeleteCmd: /ewda
+EwgSetBlock: Einen Steinblock an deiner Position spawnen lassen
+EwgSetBlockCmd: /block
+EwgSetBlockMessage: Schau neben dir, Da ist nun ein Steinblock
+EwgGamemode: Wechseln des Spielmodus
+EwgGamemodeCmd: /gm0 /gm1 /gm2
+EwgWeatherClear: Schlechtes Wetter entfernen
+EwgWeatherClearCmd: /sonne
+EwgWeatherClearMessage: Das schlechte Wetter entfernt
+InvetoryClean: Dein Inventar löschen
+InvetoryCleanCmd: /c
+InvetoryCleanMessage: Dein Inventar wurde gelöscht
+KillPlayer: Einen Spieler töten
+KillPlayerCmd: /peng
+EwgSetDay: Den Tag beginnen
+EwgSetDayCmd: /tag
+EwGSetDayMessage: den Tag eingeschaltet
+FlyPlayer: Fluggeschwindigkeit
+FlyPlayerCmd: /fs
+PlaySpeedSet1: Flugeschwindigkeit gesetzt!
+FlyPlayerCmd1: kein Komma oder Punkt bei der Geschwindigkeit setzten! Nur 10 20 30 40 usw.
+WalkPlayer: Laufgeschwindigkeit
+WalkPlayerCmd: /walk
+PlaySpeedWalkSet1: Laugschwindigkeit gesetzt!
+WalkPlayerCmd1: kein Komma oder Punkt bei der Geschwindigkeit setzten! Nur 10 20 30 40 usw.
+tptoError: Kein Spieler gefunden
+tpmeError: Kein Spieler gefunden
+tpmeInfo: Du wurdest erfolgreich zu diesem Mitspieler teleportiert!
+tptoInfo: Es wurde erfolgreich zu dir teleportiert, der Mitspieler
+gameruleDaylightCycleFalse: Tageslicht Zyklus auf aus gestellt!
+gameruleDaylightCycleTrue: Tageslicht Zyklus auf an gestellt!
+gameruleError: Du musst eine richtige Gamerule angeben!
+flyonText: Du darfst nun Fliegen!
+flyoffText: Das Fliegen ist nun wieder aus
+noitemName: Es gibt kein Item oder spieler mit dem Namen!
+ItemGiven: Item wurde hinzugefüht!
+itemAmount: Bitte Menge eingeben!
+plOff: Player ist nicht online!
+#-----------------------------------Helpmenue Spawn & Warp------
+helpTxt: benutze diesen Befehl
+helpSpawnTxt1: Einen Spawnpunkt zu setzten,
+helpHomeTxt1: Einen Home Punkt zu setzten,
+helpSpawnTxt2: /ssp
+helpHomeTxt2: /sh
+helpHubTxt1: Einen HUB zu setzten,
+helpHubTxt2: /sethub
+helpSpawnTp1: um zu einem Spawn zu teleportieren,
+helpHomeTp1: um zu deinem home zu teleportieren,
+helpHomeTp2: /home
+helpHubTp1: um zum HUB zu teleportieren,
+helpHubTp2: /hub
+HelpSetWarpTxt1: um einen Warppunkt zu erstellen
+HelpSetWarpTxt2: /sw
+HelpTpWarpTxt1: um zu einem Warppunkt zu teleportieren
+HelpTpWarpTxt2: /w
+HealError: Du musst /heal <playername> eingeben!
+Healmsg: Du wurdest geheilt von
+Healoffmsg: du musst einen Spieler angeben!
+WarpNameInfo: Du musst einen Namen eingeben
+WarpNameError: Nenne einen Warp
+HomeNameError: Bitte nur den Befehl /sh nutzen!
+HubNameError: Bitte nur den Befehl /ssethub nutzen!
+WarpDelTxt1: um einen Warppunkt zu loeschen
+HomeDelTxt1: um einen Home Punkt zu loeschen
+WarpDelfinsh: Du hast den Warp Punkt geloescht
+HomeDelfinsh: Du hast deinen home Punkt geloescht
+HomeDelTxt2: /dh
+HubDelfinsh: Du hast den HUB geloescht
+HubDelTxt2: /dhub
+WarpDelTxt2: /dw
+EWGTpHelp1: Das EmptyWorldGenerator TeleportMenü aufrufen
+EWGHelp1: Das EmptyWorldGenerator Menü aufzurufen
+ewtphelp: /ewtpHelp
+ewghelp: /ewg
+EwgWorldPlayerList: Welten und Spieler anzeigen"
+EwgWorldPlayerListCmd: /wlist
+EwgWorldCreateTitel:  Welten ohne Multivers erstellen
+EwgFlatCreate: eine flache Welt ohne Multiversgenerator
+EwgFlatCreateCmd: /fcreate <name>
+EwgLargeBiomeCreate: eine große Biome Welt ohne Multiversgenerator
+EwgLargeBiomeCreateCmd: /lbCreate <name>
+EwgNormalCreate: eine normale Welt ohne Multiversgenerator
+EwgNormalCreateCmd: /nCreate <name>
+EwgIslandCreate: eine Insel Welt ohne Multiversgeneratore
+EwgIslandCreateCmd: /iCreate <name>
+EwgM1Create: eine Minecraft 1.1 Welt ohne Multiversgenerator
+EwgM1CreateCmd: /v1Create <name>
+EwgSkyCreate: eine Minecraft 1.1 Welt ohne Multiversgenerator
+EwgSkyCreateCmd: /v1Create <name>
+DiscordText: Unseren Discord Kanal findest du hier
+DiscordChanel: https://discordapp.com/invite/6Gtgvv
+EwgPermission: ewg.use
+flyPermission: ewg.fly.set
+givePermission: ewg.give.use
+fsPermission: ewg.fly.use
+walkPermission: ewg.walk.use
+gm0Permission: ewg.gm0.use
+gm1Permission: ewg.gm1.use
+gm2Permission: ewg.gm2.use
+healPermission: ewg.heal.use
+invclearPermission: ewg.inv.clear
+wclearPermission: ewg.sun.use
+dayPermission: ewg.day.use
+gsetPermission: ewg.group.set
+killPermission: ewg.kill.use
+setspawnPermission: ewg.spawn.set
+warpsetPermission: ewg.warp.set
+homesetPermission: ewg.home.set
+hometoPermission: ewg.hometo.use
+sethubPermission: ewg.hub.set
+warpdelPermission: ewg.dw.use
+homedelPermission: ewg.dh.use
+mwsreloadPermission: ewg.mwsr.use
+flatcreatePermission: ewg.flat.create
+lbcreatePermission: ewg.lb.create
+normalcreatePermission: ewg.normal.create
+ampcreatePermission: ewg.amplified.create
+v1createPermission: ewg.v1.create
+skycreatePermission: ewg.sky.create
+blocksetPermission: ewg.block.set
+sendMotdPermission: ewg.motd.set
+setMotdPermission: ewg.motd.send
+discordPermission: ewg.discord.use
+homepagePermission: ewg.homepage.use
+tptoPermission: ewg.tpto.use
+tpmePermission: ewg.tpme.use
+gamerulePermission: ewg.gamer.use
+permissionErrorText: Du hast die Berechtigung nicht!
+homepageText: Unser Forum findest du unter
+homepageURL: http://www.zauschcraft.de
+#---------------------------Commands-----------------
+skyCreate: leereErstellen
+
+#---------------------------------------------------------------------------------------
+SystemName: EmptyWorldGenerator
+Spawnset: Spawnpunkt gesetzt!
+Hubset: Hub wurde gesetzt!
+Warp create: Warppunkt erstellt!
+HubWelcome: Willkommen im HUB
+Warp name given: Bitte vergieb einen Warpnamen!
+homeNamegiven: Dein home wurde gesetzt!
+hubNamegiven: Der HUB wurde gesetzt!
+hubNameError: Bitte nur /sethub als Befehl nutzen!
+homeNameError: Bitte nur sh als Befehl nutzen!
+Config reload: config.yml neu geladen!
+SpawnDelayMessage: Sekunden warten!
+Spawn hello: Willkommen am Spawn!
+SpawnParticle: true
+SpawnDelay: true
+Delay: 3
+#---------------------------------------------------------Pex Group set---------
+Group1: User
+Group2: Mitglied
+Group3: Bronze
+Group4: Silber
+Group5: Gold
+Group6: Platin
+Group7: Youtuber
+Group8: Vip
+Group9: Premium
+Group10: Builder
+Group11: Moderator
+Group12: Supporter
+Group13: Admin
+Group14: Owner
+Group15: PVP
+
+ppsPermission: pps.set
+
+Cmd1: pex group
+Cmd2: create
+Cmd3: parents set
+
+CmdMessage1: all Groups set
+CmdMessage2: error, please look at the config.yml
